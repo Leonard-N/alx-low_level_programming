@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main functions
- * the print statement
- * discription: using the main fucntion
- * return: 0
+ * main - print the string in the function
+ *
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return: 0
  */
 int main(void)
 {

@@ -3,7 +3,8 @@
 /**
  * main functions
  * the print statement
- * return: (0)
+ * discription: using the main fucntion
+ * return: 0
  */
 int main(void)
 {

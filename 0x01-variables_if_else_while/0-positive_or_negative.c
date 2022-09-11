@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * This program will assign a random number to the variable n.
+ * main: will assign a random number to the variable n.
  *
- * whether the nmuber is positive, negative or zero.
- * followed by a new line.
- * Return: 0
+ * Description: print whether the nmuber is positive, negative or zero.
+ * Return: 0.
  */
 
 int main(void)
@@ -16,21 +15,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-
-	if (n > 0 )
+	if (n > 0)
 	{
-		printf('is positive %i\n', n);
+		printf('%i is positive\n', n);
 	}
-	else if (n ==0 )
+	else if (n ==0)
 	{
-		printf('is zero %i\n', n);
+		printf('%i is zero\n', n);
 	}
-	else (n < 0 )
+	else if (n < 0)
 	{
-		printf('is negative %i\n', n);
+		printf('%i is negative\n', n);
 	}
-
 	return (0);
 
 }

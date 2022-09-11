@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /*
- * main: print a random number to variable n
- * 
- * Description: positive, negative or zero numbers
+ * main - print a random number to variable n
+ * Description: using the main function
+ * printing positive, negative or zero numbers
  *
- * Return: Zero value
+ * Return: 0
  */
 
 int main(void)

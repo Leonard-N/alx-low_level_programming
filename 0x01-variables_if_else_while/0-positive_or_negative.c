@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - Check if a number.
- * @void: Null value
+ * main: print a random number to variable n
+ * 
  * Description: positive, negative or zero numbers
  *
  * Return: Zero value

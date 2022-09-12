@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase, followed by a new line.
+ * main - prints the alphabet in lowercase, and a new line.
  *
  * Description: Print all the letters except q and e. 
  *
@@ -19,7 +19,7 @@ int main(void)
 			putchar(letter);
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return(0);
 }

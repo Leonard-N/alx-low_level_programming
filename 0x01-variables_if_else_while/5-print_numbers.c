@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Printing digist numbers of base 10 starting from 
+ * main - Printing digist numbers of base 10 starting from 0
+ * Description: all my code in the main function.
  *
- * Description: all my code in the main function. 
  * Return: Always 0.
  */
 

@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 /**
+ * main - Printing digist numbers of base 10 starting from 
  *
- ** main - Prints all single digit numbers of base 10 starting from 0.
- *
- **
- *
- ** Return: Always 0.
- *
- **/
+ * Description: all my code in the main function. 
+ * Return: Always 0.
+ */
 
 int main(void)
-
 {
 
 	int num;

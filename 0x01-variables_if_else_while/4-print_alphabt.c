@@ -3,8 +3,7 @@
 /**
  * main - prints the alphabet in lowercase, and a new line.
  *
- * Description: Print all the letters except q and e. 
- *
+ * Description: Print all the letters except q and e.
  * Return: 0
  */
 
@@ -22,4 +21,5 @@ int main(void)
 	putchar('\n');
 
 	return(0);
+
 }

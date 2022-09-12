@@ -4,13 +4,13 @@
 
 /*
  * main - print a random number to variable n
- * Description: using the main function
- * printing positive, negative or zero numbers
+ *
+ * Description: printing positive, negative or zero numbers
  *
  * Return: 0
  */
 
-int main(void)
+int main (void)
 {
 int n;
 

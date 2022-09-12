@@ -4,8 +4,7 @@
 /* more headers goes there */
 
 /**
- * main -the program will assign a random number to the variable n each time it is executed. 
- *
+ * main -the program will assign a random number to the variable n each time it is executed.
  * Description: n is greater than 5, n is 0 and is 0, n is less than 6.
  *
  * Return: 0

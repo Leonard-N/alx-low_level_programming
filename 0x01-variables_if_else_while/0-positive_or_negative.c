@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - print a random number to variable n
  *
  * Description: printing positive, negative or zero numbers

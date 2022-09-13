@@ -1,20 +1,11 @@
 #include <stdio.h>
 
-
-
 /**
+ * main - int main(void).
+ * Description: Print alphabet in reverse.
  *
- ** main- Entry point
- *
- ** @void: Null value
- *
- **
- *
- ** Description: Print alphabet in reverse
- *
- ** Return: Zero value
- *
- **/
+ * Return: 0
+ */
 
 int main(void)
 

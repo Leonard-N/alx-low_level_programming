@@ -2,8 +2,7 @@
 
 /**
  * main - Prints all the numbers of base 16 in lowercase.
- * Description: 
- *
+ * Description: int main(void)
  * Return: 0
  */
 

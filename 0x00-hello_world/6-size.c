@@ -2,7 +2,7 @@
 
 /**
  * main - int main(void)
- * Description: the output should be Programming is like building a multilingual puzzle.
+ * Description:nProgramming is like building a multilingual puzzle.
  *
  * Return: 0
  */
@@ -14,11 +14,11 @@ int main(void)
 	long long int w;
 	float q;
 
-	printf('Size of a char: %lu byte(s)\n', (unsigned)sizeof(x));
-	printf('Size of an int: %lu byte(s)\n', (unsigned)sizeof(z));
-	printf('Size of a long int: %lu byte(s)\n', (unsigned)sizeof(y));
-	printf('Size of a long long int: %lu byte(s)\n', (unsigned)sizeof(w));
-	printf('Size of a float: %lu bytes(s)\n', (unsigned)sizeof(q));
+	printf('Size of a char: %lu byte(s)\n', (unsigned int)sizeof(x));
+	printf('Size of an int: %lu byte(s)\n', (unsigned int)sizeof(z));
+	printf('Size of a long int: %lu byte(s)\n', (unsigned int)sizeof(y));
+	printf('Size of a long long int: %lu byte(s)\n', (unsigned int)sizeof(w));
+	printf('Size of a float: %lu bytes(s)\n', (unsigned int)sizeof(q));
 	return (0);
 
 }

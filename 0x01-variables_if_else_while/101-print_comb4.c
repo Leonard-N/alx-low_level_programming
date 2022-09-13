@@ -4,7 +4,7 @@
  * main - int main(void)
  * Description: print all combination of three different digits
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

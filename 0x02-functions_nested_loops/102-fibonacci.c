@@ -21,9 +21,9 @@ int main(void)
 		printf("%ld", fib3);
 
 		if (count <= 50)
-			printf(", ")
+			printf(", ");
 		fib1 = fib2;
-		fib2 = fib3
+		fib2 = fib3;
 	}
 	printf("\n");
 

@@ -19,7 +19,7 @@ int main(void)
 	printf("%lu, ", b);
 	for (d = 3; d < 89; d++)
 	{
-		printf("lu, ", c);
+		printf("%lu, ", c);
 		a = b;
 		b = c;
 		c = a + b;

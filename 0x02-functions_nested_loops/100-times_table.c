@@ -16,11 +16,11 @@ void print_times_table(int n)
 
 	for (row = 0; row <= n; row++)
 	{
-		for (col = 0; row <= n; col++)
+		for (col = 0; col <= n; col++)
 		{
-			if (col ==0)
+			if (col == 0)
 				_putchar(((row * col) % 10) + '0');
-			else if ((row * col) <=9)
+			else if ((row * col) <= 9)
 			{
 				_putchar(',');
 				_putchar(' ');

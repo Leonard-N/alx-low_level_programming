@@ -10,12 +10,14 @@
 
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+	char *sh = "Holberton";
 
-	for (ch = 0; ch < 8; ++ch)
-	_putchar(str[ch]);
-	_putchar("\n");
+	while (*sh)
+{
+	_putchar(*sh);
+									sh++;
+								}
+	_putchar('\n');
 
 	return 0;
 	

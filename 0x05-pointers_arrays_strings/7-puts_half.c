@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* puts_half -  prints a string
+* puts_half - prints a string
 * @str: arg *str
+*
 * Return: string to stdout
 */
 
@@ -24,3 +25,4 @@ str++;
 }
 
 _putchar("\n");
+}

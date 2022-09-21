@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* puts2 - prints characters of a string 
+* puts2 - prints characters of a string
 * @str: the output will ba a sting
 *
 * Return: void

@@ -6,15 +6,14 @@
 * @a: arg a
 * @b: arg b
 *
-* Return: swao_int
+* Return: void
 */
 
 void swap_int(int *a, int *b)
 {
-int z;
+	int z;
 
-z = *a;
-*a = *b;
-*b = z;
-
+	z = *a;
+	*a = *b;
+	*b = z;
 }

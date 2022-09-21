@@ -2,14 +2,14 @@
 
 /**
  * strlen - returns the length of a string
+ * @s: arg points to string
  *
- * @s: arg s
  * Return: string length
  */
 
 int _strlen(char *s)
 {
-	int len = 0;
+	 int len;
 
 	while (*s != "\0")
 	{

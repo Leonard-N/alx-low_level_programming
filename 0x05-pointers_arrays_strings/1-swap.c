@@ -2,7 +2,6 @@
 
 /**
 * swap_int - swaps the values of two integers.
-* 
 * @a: arg a
 * @b: arg b
 *

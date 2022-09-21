@@ -3,16 +3,18 @@
 /**
 * swap_int - swaps the values of two integers.
 * 
-* @a: arg x
-* @a: arg y
-* Return: void
+* @a: arg a
+* @b: arg b
+*
+* Return: swao_int
 */
 
-void swap_int(int *x, int *y)
+void swap_int(int *a, int *b)
 {
 int z;
 
-z = *x;
-*x = *y;
-*y = z;
+z = *a;
+*a = *b;
+*b = z;
+
 }

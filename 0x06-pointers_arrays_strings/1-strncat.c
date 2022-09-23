@@ -5,7 +5,7 @@
  * @dest: points to the destination string.
  * @src: ptr source string.
  * @n: number of bites to be concatenated.
- * 
+ *
  * Return: void.
  */
 

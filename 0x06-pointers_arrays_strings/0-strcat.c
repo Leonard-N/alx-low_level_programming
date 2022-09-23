@@ -1,22 +1,26 @@
 #include "main.h"
 
 /**
-* strcat - This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
-* @dest:
-* @src:
+* strcat - This function append two strings.
+* @dest: pointer to destination string.
+* @src: pointer to source string.
 *
-* Return: A pointer to th destination string @dest.
+* Return: A pointer to the destination string @dest.
 */
 
 char *strcat(char *dest, const char *src)
 {
-	int index = 0, dest_len = 0;
+	int length, j;
 
-	while (dest[index++])
-		dest_len++;
-
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
-
+	length = 0;
+	while (dest[length] != '\0')
+	{
+		length++
+	}
+	for (j = 0; src[j] != '\0'; j++, length++)
+	{
+		dest[length] = src[j];
+	}
+	dest[length] = '\0';
 	return (dest);
 }

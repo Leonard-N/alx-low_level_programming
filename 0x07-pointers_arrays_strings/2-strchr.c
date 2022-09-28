@@ -4,7 +4,7 @@
  * _2-strchr.c - Entry point
  * @s: string pointed to
  * @c: input
- *  
+ *
  * Return: s
  */
 

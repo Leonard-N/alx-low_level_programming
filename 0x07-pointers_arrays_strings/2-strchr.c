@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strstr - Function that locates a substring.
+ * _strchr - Function that locates a substring.
  * @s: string pointer.
  * @c: char variable c.
  *

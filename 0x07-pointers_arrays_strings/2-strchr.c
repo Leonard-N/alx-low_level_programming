@@ -8,16 +8,19 @@
  * Return: s
  */
 
-char *_strstr(char *haystack, char *needle)
+char *_strchr(char *s, char c);
 {
-	int count;
-
-	for (; haystack[0]; haystack++)
+	while (s[0] != '\0')
 	{
-		for (count = 0; haystack[count] == needle[count]; count++)
-			;
-		if (!(needle[count]))
-			return (haystack);
+		if (s[0] == c)
+
+			return (s);
+
+		else if (s[1] == c)
+
+			return (s + 1);
+
+		s++;
 	}
-	return (0);
+	return (s + 1);
 }

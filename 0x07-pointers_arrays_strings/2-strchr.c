@@ -2,8 +2,8 @@
 
 /**
  * _strstr - Function that locates a substring.
- * @needle: char pointer
- * @haystack: char pointer
+ * @s: string pointer.
+ * @c: char variable c.
  *
  * Return: s
  */

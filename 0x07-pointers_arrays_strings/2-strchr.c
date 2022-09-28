@@ -1,26 +1,23 @@
 #include "main.h"
 
 /**
- * _2-strchr.c - Entry point
- * @s: string pointed to
- * @c: input
+ * _strstr - Function that locates a substring.
+ * @needle: char pointer
+ * @haystack: char pointer
  *
  * Return: s
  */
 
-char *_strchr(char *s, char c);
+char *_strstr(char *haystack, char *needle)
 {
-	while (s[0] != '\0')
+	int count;
+
+	for (; haystack[0]; haystack++)
 	{
-		if (s[0] == c)
-
-			return (s);
-
-		else if (s[1] == c)
-
-			return (s + 1);
-
-		s++;
+		for (count = 0; haystack[count] == needle[count]; count++)
+			;
+		if (!(needle[count]))
+			return (haystack);
 	}
-	return (s + 1);
+	return (0);
 }

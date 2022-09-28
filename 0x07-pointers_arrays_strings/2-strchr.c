@@ -10,9 +10,6 @@
 
 char *_strchr(char *s, char c);
 {
-	unsigned char *s;
-	unsigned char c;
-
 	while (*s != '\0')
 	{
 		if (*s == c)

@@ -1,17 +1,12 @@
-#include "main."
+#include "main.h"
 /**
 
  * helper - function to loop eith new second variable
  * @n: int arg
  * @result: int arg
-
  *
-
  * Return: sqaure root
-
  */
-
-
 
 int helper(int n, int result)
 {
@@ -30,7 +25,6 @@ int helper(int n, int result)
 
 }
 
-
 /**
  * _sqrt_recursion - natural square root of a number
  * @n: int arg
@@ -38,19 +32,11 @@ int helper(int n, int result)
  * Return: int
  */
 
-
-
 int _sqrt_recursion(int n)
-
 {
-
 	if (n < 0)
-
 	{
-
 		return (-1);
-
 	}
-
 	return (helper(n, 0));
 }

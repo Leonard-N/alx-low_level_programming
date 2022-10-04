@@ -4,7 +4,7 @@
  * main - write a program that prints the number of arguments paed into it
  * @args: argument count
  * @argv: argument vector
- * 
+ *
  * Return: 0
  */
 

@@ -5,7 +5,7 @@
  * main - prints all the arguments a program receives
  * @argc: number of arguments
  * @argv: arrys of arguments
- * 
+ *
  * Return: 0
  */
 

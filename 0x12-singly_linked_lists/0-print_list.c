@@ -1,29 +1,25 @@
 #include "list.h"
-#include <stdio.h>
 
 /**
-* print_list - Prints linked list
-* @h: Points to struct
-*
-* Return: Integer
-*/
+ * print_list - Prints linked list
+ * @h: Points to struct
+ *
+ * Return: Integer
+ */
 
 size_t print_list(const list_t *h)
 {
-	unsigned int index = 0;
-	const list_t *list  = NULL;
-	list = h;
+	size_t nelem;
 
-	while (list != NULL)
+	nelem = 0;
+
+	while (h != NULL)
 	{
-		if (list->str == NULL)
-		{
-			printf("[0] (nil)\n");
-		}
+		if (h->str == NULL)
+			printf("[%d] %s\n", 0, "(nil)");
 		else
-			printf("[%d] %s\n", list->len, list->str);
-		list = list->next;
-		index++;
+			printf("[%d] %s\n", h->len, h->str);
+		nelem++;
 	}
-	return (index);
+	return (nelem);
 }

@@ -1,4 +1,5 @@
-#include "list.h"
+#include "lists.h"
+#include <stdio.h>
 
 /**
  * print_list - Prints linked list
@@ -9,17 +10,20 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t nelem;
+	unsigned int index = 0;
+	const list_t *list  = NULL;
 
-	nelem = 0;
-
-	while (h != NULL)
+	list = h;
+	while (list != NULL)
 	{
-		if (h->str == NULL)
-			printf("[%d] %s\n", 0, "(nil)");
+		if (list->str == NULL)
+		{
+			printf("[0] (nil)\n");
+		}
 		else
-			printf("[%d] %s\n", h->len, h->str);
-		nelem++;
+			printf("[%d] %s\n", list->len, list->str);
+		list = list->next;
+		index++;
 	}
-	return (nelem);
+	return (index);
 }
